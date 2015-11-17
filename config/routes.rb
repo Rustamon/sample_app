@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'static_pages/help'
+  root 'static_pages/help'
 
   get 'static_pages#home'
      get 'static_pages/about'
@@ -35,7 +35,7 @@ Rails.application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-root 'application#hello'
+
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments
